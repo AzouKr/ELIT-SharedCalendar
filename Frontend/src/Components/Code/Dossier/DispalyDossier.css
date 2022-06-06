@@ -1,0 +1,126 @@
+#add-doss-body{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 600px;
+    background-color: #f2f6ff;
+    border-radius: 20px;
+    z-index: 1000000000000000000000000000000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#add-doss-body[data-theme='dark']{
+    background-color: #2b2f33;
+}
+
+.add-doss-title-box{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 13px;
+}
+
+
+.input-add-doss-container{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.input-add-doss-first{
+    display: flex;
+    margin-bottom: 10px;
+    z-index: 9999999999999999999999999999999;
+}
+
+.titles[data-theme='dark']{
+    color: white;
+}
+
+.input-add-doss-title{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.input-add-doss-type{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.input-add-doss-partage{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.input-add-doss{
+    background-color:#332FD0;
+    width:375px;
+    height:29px;
+    border: 2px solid #332FD0;
+    background-color: #332FD0;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.input-add-doss-select{
+    background-color:#332FD0;
+    width:150px;
+    height:29px;
+    border: 2px solid #332FD0;
+    background-color: #332FD0;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+
+.btn-AjouterDoss{
+    position: absolute;
+    height:100px;
+    width: 100%;
+    bottom: 0;
+    z-index: -99999999999999999990;
+}
+
+.btn-ajouter-doss{
+    position: absolute;
+    height:50px;
+    width:120px;
+    top:50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #332FD0;
+    border: 1px solid #332FD0;
+    border-radius: 20px;
+    color:white;
+    font-weight: bold;
+    z-index: -9999999999999999999990;
+}
+.btn-ajouter-doss:hover{
+    cursor: pointer;
+    background-color: #121090;
+    border: 1px solid #121090;
+}
+
+
+.doss-err-msg{
+    position: absolute;
+    font-size: 15px;
+    bottom: 0.5%;
+    left: 19%;
+    text-align: left;
+    color: red;
+}

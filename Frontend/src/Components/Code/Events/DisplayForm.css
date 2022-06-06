@@ -1,0 +1,217 @@
+#displayform{
+    position: absolute;
+    height: 800px;
+    width: 600px;
+    background-color: #f2f6ff;
+    margin: auto;
+    top: 10%;
+    left: 34%;
+    border-radius: 20px;
+    z-index: 1000000000000000000000000000000;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+#displayform[data-theme='dark']{
+    background-color: #2b2f33;
+}
+
+.fa-times{
+    position: absolute;
+    right: 5%;
+    top: 2%;
+    color: black;
+}
+
+.fa-times:hover{
+    cursor: pointer;
+}
+
+.displayform-box{
+    position:absolute;
+    width: 520px;
+    top: 12%;
+    height: 600px;
+     margin:0 40px;
+     color: black;
+}
+
+.displayform-box[data-theme='dark']{
+    color: white;
+}
+
+.btn-box{
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 0%;
+
+}
+
+.btn-modifier{
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    top: 25%;
+    right: 30%;
+    border-radius: 20px;
+    background-color: #332FD0;
+    border: 1px solid #332FD0;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-modifier:hover{
+    cursor: pointer;
+    background-color: #121090;
+    border: 1px solid #121090;
+}
+
+.btn-supprimer{
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    top: 25%;
+    right: 5%;
+    border-radius: 20px;
+    background-color: #FD5D5D;
+    border: 1px solid #FD5D5D;
+    color: white;
+    font-weight: bold;
+}
+
+.btn-supprimer:hover{
+    cursor: pointer;
+    background-color: #ee3532;
+    border: 1px solid #ee3532;
+}
+
+.rdv-title-box{
+    position:relative;
+   
+    height: fit-content;
+    width: 100%;
+    display: flex;
+
+}
+.fa-calendar{
+    margin-top: 10px;
+}
+
+.rdv-title{
+    margin-top: 5px;
+    margin-left: 10px;
+   
+}
+
+.rdv-date{
+    margin-top: 5px;
+    margin-left: 10px;
+    color:rgb(18, 16, 144,0.6);
+    font-size: 20px;
+    color: black;
+}
+
+.rdv-date[data-theme='dark']{
+    color: white;
+}
+.rdv_lieu_box{
+  
+    width:100%;
+    height:fit-content;
+    display: flex;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+
+.fa-map-marker{
+    margin-top: 10px;
+}
+.rdv_lieu{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.participant_box{
+    position: relative;
+    width:100%;
+    height:fit-content;
+    display: flex;
+    margin-top: 30px;
+    font-size: 15px;
+
+}
+.fa-user{
+    margin-top: 10px;
+    margin-left: -2px;
+}
+.participant_container{
+    width:100%;
+    height:fit-content;
+    margin-left: 10px;
+ 
+}
+.nbr_participant{
+    margin-top: 10px;
+    margin-left: -5px;
+
+}
+.participant_info{
+    width:100%;
+    height:200px;
+    overflow-y:auto;
+}
+
+.participant{
+    width:100%;
+    height:100px;
+    display: flex;
+    font-size: 17px;
+}
+.first{
+    margin-top: 20px;
+}
+.image_participant{
+    height:40px;
+    width:40px;
+    border-radius: 50%;
+    margin-top: 5px;
+   
+}
+.nbr_participant{
+    margin-left: 7px;
+}
+.information{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.part_role{
+    color: grey;
+}
+
+.second{
+    margin-top: -20px;
+}
+
+.description-box{
+   
+    width:100%;
+    height:100px;
+    display: flex;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+.fa-info-circle{
+    margin-top: 3px;
+    margin-left: -2px;
+   
+}
+
+.description-rdv{
+  
+    margin-left: 14px;
+    overflow-y:auto;
+}

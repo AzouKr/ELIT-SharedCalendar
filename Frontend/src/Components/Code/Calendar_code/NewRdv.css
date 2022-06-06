@@ -1,0 +1,30 @@
+.bouton-rendezvous{
+    background-color: #332FD0;
+    font-size: 20px;
+    height:70px;
+    width:100%;
+    color: white;
+    border: 1px solid #332FD0;
+    border-radius:20px ;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+  }
+
+  .bouton-rendezvous:hover{
+    background-color: #121090;
+    border: 1px solid #121090;
+  }
+
+  .fa-calendar-plus-o{
+    color: white;
+    position: relative;
+    top:43px;
+    left:10%;
+  }
+
+  .fa-calendar-plus-o:hover{
+    cursor: pointer;
+  }
+  
+  .bouton-rendezvous:hover{
+    cursor: pointer;
+  }

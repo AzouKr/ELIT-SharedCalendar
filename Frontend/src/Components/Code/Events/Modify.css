@@ -1,0 +1,189 @@
+#formInput{
+    position: absolute;
+    height: fit-content;
+    width: 600px;
+    background-color: #F2F6FF;
+    margin: auto;
+    top: 10%;
+    left: 34%;
+    border-radius: 20px;
+    z-index: 999999999999999999999999999999999999;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 17px;
+   padding-top:90px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+}
+
+#formInput[data-theme='dark']{
+    background-color: #2b2f33;
+}
+
+#title[data-theme='dark']{
+    color: white;
+}
+
+#title{
+    font-size: 22px;
+    font-weight: bold;
+    color: #332FD0;
+    margin-top: -30px;
+    margin-bottom: 10px;
+
+}
+
+.form{
+    margin: 0px 40px 0 40px;
+    height: fit-content;
+}
+
+.input-holder{
+    position: relative;
+   
+   
+}
+.input-form-rdv{
+  
+    width:250px;
+     height:32px;
+     border: 2px solid #332FD0;
+     background-color: #332FD0;
+     color: white;
+     text-align: center;
+     margin-left: 170px;
+     margin-bottom: 20px;
+     border-radius: 12px;
+     font-size: 15px;
+     font-weight: bold;
+}
+
+.type-holder-cont{
+    display: flex;
+}
+
+.dossier-holder{
+    left: 20px;
+}
+
+.inpt-form-dossier{
+    position: relative;
+    width:165px;
+    height:32px;
+    border: 2px solid #332FD0;
+    background-color: #332FD0;
+    color: white;
+    text-align: center;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.input-form-rdv-select{
+    position: relative;
+    width:120px;
+    height:32px;
+    border: 2px solid #332FD0;
+    background-color: #332FD0;
+    color: white;
+    text-align: center;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.input-form-rdv:checked{
+    border:#332FD0;
+}
+
+.label-form{
+    position: absolute;
+    left:0%;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.label-form[data-theme='dark']{
+    color: white;
+}
+
+#input-container{
+    margin: 40px 40px 0 40px;
+
+}
+
+.fa-times{
+    position: absolute;
+    right: 5%;
+    top:2%;
+}
+
+.fa-times[data-theme='dark']{
+    color: white;
+}
+
+.fa-times:hover{
+    cursor: pointer;
+}
+.btn-AjouterForm{
+    position: relative;
+    height:100px;
+    width: 100%;
+    bottom: 0;
+}
+
+.btn-ajouter{
+    position: absolute;
+    height:50px;
+    width:120px;
+    top:25%;
+    right:5%;
+    background-color: #332FD0;
+    border: 1px solid #332FD0;
+    border-radius: 20px;
+    color:white;
+    font-weight: bold;
+}
+.btn-ajouter:hover{
+    cursor: pointer;
+    background-color: #121090;
+    border: 1px solid #121090;
+}
+
+.option{
+    border: 1px solid #332FD0;
+    border-radius: 20px;
+    background-color: #332FD0;
+}
+
+.desc{
+    position: relative;
+    margin-right: 78%;
+}
+
+.CKEditor{
+    margin-top: 20px;
+    height: 140px;
+    overflow-y:auto;
+}
+
+.ck-editor__editable {
+    min-height: 100px;
+}
+
+.Multiselect{
+    width: 250px;
+    margin-left: 180px;
+    margin-bottom: 20px;
+}
+
+.rdv-err-msg{
+    position: absolute;
+    font-size: 15px;
+    bottom: 5%;
+    left: 15%;
+    text-align: left;
+    color: red;
+}

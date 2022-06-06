@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+#Dashboard-body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #f2f6ff;
+    top:0; 
+    bottom:0; 
+    right:0; 
+    left:0;
+}
+
+#Dashboard-body[data-theme='dark']{
+    background-color: #212529;
+
+}
+
+
+.Dashboard-container{
+    height: 90.6vh;
+    width: 100vw;
+    display: flex;
+}
+
+.Dashboard-left-container{
+    height: 100%;
+    width: 70%;
+}
+
+.welcome-container{
+    position: relative;
+    height: 300px;
+    width: 1100px;
+    margin-left: 10%;
+    margin-top: 3%;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.welcome-container[data-theme='dark']{
+    background-color: #2b2f33;
+    color: white;
+}
+
+#dash-welcome-img{
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    right: 0%;
+    border-radius: 20px;
+}
+
+.welcome-text{
+    position: relative;
+    top: 15%;
+    left: 5%;
+    font-family: 'Secular One', sans-serif;
+}
+
+.welcome-para{
+    position: relative;
+    top: 20%;
+    left: 5%;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    width: 450px;
+}
+
+.btn-dash-calendar{
+    position: absolute;
+    bottom: 12%;
+    left: 5%;
+    padding: 20px 60px 20px 60px;
+    background-color: #332FD0;
+    border: 1px solid #332FD0;
+    border-radius: 20px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.btn-dash-calendar:hover{
+    cursor: pointer;
+    background-color: #121090;
+    border: 1px solid #121090;
+}
+
+.Dashboard-left-container-bottom{
+    position: relative;
+    height: 460px;
+    width: 1100px;
+    margin-left: 10%;
+    margin-top: 3%;
+    display: flex;
+}
+
+.profile-box{
+    height: 100%;
+    width: 400px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile-box[data-theme='dark']{
+    background-color: #2b2f33;
+    color: white;
+}
+
+.profile-top-container{
+    height: 60%;
+    width: 100%;
+    border-radius:20px;
+}
+
+.profile-img-dash{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.profile-username-dash{
+    position: relative;
+    text-align: center;
+    top: 15%;
+    font-size: 22px;
+    font-weight: bold;
+    color: #332FD0;
+}
+
+.profile-username-dash[data-theme='dark']{
+    color: white;
+}
+
+.profile-desc-dash{
+    position: relative;
+    color: grey;
+    text-align: center;
+    top: 20%;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.profile-bottom-container{
+    height: 40%;
+    width: 100%;
+    border-radius:20px;
+    display: flex;
+}
+
+.profile-bottom-div{
+    position: relative;
+    height: 120px;
+    width: 95px;
+    top: 50%;
+    left: 75%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.right-div{
+    border-left: 2px dashed grey;
+}
+
+.left-div{
+    border-right: 2px dashed grey;
+}
+
+.nbr-stat{
+    margin-top: 20%;
+    text-align: center;
+    color: #332FD0;
+}
+
+.nbr-stat[data-theme='dark']{
+    color: white;
+}
+
+.title-stat{
+    text-align: center;
+    color: grey;
+}
+
+.dashboard-bottom-side{
+    height: 100%;
+    width: 580px;
+    margin-left: 20px;
+    display: flex;
+}
+
+.weather-widget{
+    width: fit-content;
+}
+
+
+.Dashboard-sidebar{
+    height: 90%;
+    margin-top: 2%;
+    width: 28%;
+    background: white;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Dashboard-sidebar[data-theme='dark']{
+    background-color: #2b2f33;
+}
+
+.mini-calendar-dash{
+    position: relative;
+    height: fit-content;
+    width: fit-content;
+    top: 20%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.today-meeting{
+    position: relative;
+    height: 430px;
+    width: 400px;
+    top: 35%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.weatherOffline{
+    position: absolute;
+    z-index: 100000000000;
+}
+
+.no_meeting{
+    position: absolute;
+    z-index: 100000000000;
+    right: -80px;
+}

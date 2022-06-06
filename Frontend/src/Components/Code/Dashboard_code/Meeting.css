@@ -1,0 +1,72 @@
+.Meeting-box{
+    height: 100%;
+    width: 100%;
+}
+
+.Meetings-headline[data-theme='dark']{
+    color: white;
+}
+
+.Meeting-container{
+    width: 450px;
+    height: 380px;
+    overflow-y:auto;
+}
+
+.Meeting-display{
+    position: relative;
+    height: 70px;
+    width: 400px;
+    margin-top: 20px;
+    display: flex;
+}
+.Meeting-display[data-theme='dark']{
+    color: white;
+}
+
+.fa-clock-o{
+    margin-top: 25px;
+    margin-left: 15px;
+}
+.Meeting-info{
+    position: relative;
+    left: 20px;
+    height: 100%;
+    padding: 0;
+}
+
+.Meeting-title{
+    width: 300px;
+    font-size: 16px;
+}
+
+.Meeting-place{
+    position: relative;
+    width: 300px;
+    font-size: 16px;
+    color: grey;
+}
+
+.fa-arrow-right{
+    position: absolute;
+    right: 10%;
+    top: 25%;
+}
+.fa-arrow-right:hover{
+    cursor: pointer;
+}
+
+.Meeting-left-box{
+    height: 100%;
+    width: 100px;
+}
+
+.Meeting-time-start{
+    font-size: 27px;
+    color: #332FD0;
+}
+
+.Meeting-time-end{
+    font-size: 20px;
+    color: grey;
+}

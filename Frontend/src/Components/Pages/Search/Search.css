@@ -1,0 +1,253 @@
+#search-body{ 
+    height: 72.6vh;
+    width: 100vw;
+    background-color: #f2f6ff;
+    top:0; 
+    bottom:0; 
+    right:0; 
+    left:0;
+}
+
+#search-body[data-theme='dark']{
+    background-color: #212529;
+
+}
+
+.search-input-container{
+    position: relative;
+    width: 1140px;
+    height: 103px;
+    top: 5%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-input{
+    position: relative;
+    display: flex;
+    width: 886px;
+    height: 55px;
+    margin-top: 5%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#search-page-input{
+    height: 100%;
+    width: 813px;
+    border-radius: 15px;
+    border: none;
+}
+.search-icon-container{
+    height: 100%;
+    width: 73px;
+    border-radius: 15px;
+    border: none;
+    background-color: white;
+}
+
+#search-icon-pg{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#search-icon-pg:hover{
+    cursor: pointer;
+}
+
+.search-result-page{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin-top: 2%;
+    background-color: #f2f6ff;
+}
+
+
+.search-result-page[data-theme='dark']{
+    background-color: #212529;
+
+}
+
+.search-result-container{
+    position: relative;
+    height: 500px;
+    width: 1110px;
+    top: 38%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.search-result-container[data-theme='dark']{
+    background-color: #2b2f33;
+    color: white;
+}
+
+.search-result-nav{
+    position: relative;
+    height: 40px;
+    width: 1086px;
+    top: 4%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.search-result-nav-span{
+    position: relative;
+    top: 24%;
+    left: 1%;
+}
+
+.search-result-container-display{
+    position: relative;
+    height: 420px;
+    width: 1068px;
+    top: 43%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    overflow-y:auto;
+    
+}
+
+.search-rslt-display{
+    position: relative;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    border-bottom: 1px solid #e6e4e9;
+    margin-top: 10px;
+}
+
+.search-rslt-display-img{
+    position: relative;
+    height: 100%;
+    width: 80px;
+}
+
+.search-rslt-img{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-rslt-display-desc{
+    position: relative;
+    height: 100%;
+    width: 369px;
+}
+
+.search-rslt-desc-top{
+    position: relative;
+    height: 36px;
+    width: 100%;
+}
+
+.search-rslt-desc-top-title{
+    position: relative;
+    top: 18%;
+}
+
+.search-rslt-desc-bottom{
+    position: relative;
+    height: 36px;
+    width: 100%;
+}
+
+.search-rslt-desc-bottom-title{
+    position: relative;
+    top: 18%;
+}
+
+
+.search-rslt-display-place{
+    position: relative;
+    height: 100%;
+    width: 167px;
+}
+
+.search-rslt-display-top{
+    position: relative;
+    height: 36px;
+    width: 100%;
+}
+
+.search-rslt-display-top-title{
+    position: relative;
+    top: 32%;
+}
+
+.search-rslt-display-bottom{
+    position: relative;
+    height: 36px;
+    width: 100%;
+}
+
+.search-rslt-display-bottom-title{
+    position: relative;
+    top: 5%;
+}
+
+.search-rslt-display-type{
+    position: relative;
+    height: 100%;
+    width: 265px;
+    left: 127px;
+}
+
+.search-rslt-type-cont{
+    position: relative;
+    height: 35px;
+    width: 180px;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.search-rslt-type-title{
+    position: relative;
+    top: 10%;
+    left: 7%;
+    color: white;
+    font-weight: bold;
+}
+
+.search-rslt-display-show{
+    position: relative;
+    height: 100%;
+    width: 60px;
+    left: 127px;
+}
+
+.fa-eye{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.fa-eye:hover{
+    cursor: pointer;
+}

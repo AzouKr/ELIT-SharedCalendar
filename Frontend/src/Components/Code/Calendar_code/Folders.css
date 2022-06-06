@@ -1,0 +1,153 @@
+#Folder-body{
+    position: absolute;
+    background-color: white;
+    height: 340px;
+    width: 100%;
+    border-radius: 20px;
+    overflow-y:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#Folder-body[data-theme='dark']{
+    background-color: #2b2f33;
+}
+
+#Folder-body[data-theme='dark'] .folder-private-title{
+    color: white;
+}
+
+#Folder-body[data-theme='dark'] .private-folder-title{
+    color: white;
+}
+
+#Folder-body[data-theme='dark'] .private-agenda{
+    color: white;
+}
+
+#Folder-body[data-theme='dark'] .private-folder-title{
+    color: white;
+}
+
+
+
+.folder-private-box{
+    position: relative;
+    margin: 40px 10px 10px 10px;
+    height: fit-content;
+}
+
+.folder-shared-box{
+    position: relative;
+    margin: 30px 10px 10px 10px;
+    height: fit-content;
+}
+
+.folder-private-title{
+    display: flex;
+}
+
+.folder-private-name{
+    font-size: 20px;
+}
+.folder-private-name:hover{
+    cursor: pointer;
+}
+
+.fa-folder-open-o{
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.folder-private-agendas{
+    position: relative;
+    margin: 10px 10px 20px 40px;
+    height: fit-content;
+
+}
+
+.private-folder-title{
+    display: flex;
+}
+
+.private-folder-title:hover{
+    cursor: pointer;
+}
+
+.private-folder-title:hover .fa-minus-circle{
+    display: block;
+}
+
+.private-folder-title:hover .fa-wrench{
+    display: block;
+}
+
+.private-folder{
+    position: relative;
+}
+
+.private-folder-name{
+    font-size: 20px;
+}
+
+.private-folder-name:hover{
+    cursor: pointer;
+}
+
+
+.private-agenda{
+    position: relative;
+    display: flex;
+}
+
+.private-agenda:hover{
+    cursor: pointer;
+}
+
+.private-agenda-name{
+    font-size: 20px;
+}
+
+.fa-folder-o{
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.fa-minus-circle{
+    position: absolute;
+    display: none;
+    margin-top: 8px;
+    right: 0px;
+}
+
+.folder-edit{
+    visibility: hidden;
+}
+
+.fa-wrench{
+    position: absolute;
+    display: none;
+    margin-top: 6px;
+    right: 40px;
+}
+
+.fa-address-book-o{
+    margin-top: 7px;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.add-folder{
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+
+.fa-plus-circle[data-theme='dark']{
+    color: white;
+}
+
+.add-folder:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,76 @@
+$bp-small: 48em;
+$bp-medium: 64em;
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+// Media Queries
+$mq-small: "(max-width: #{$bp-small})";
+$mq-medium: "(max-width: #{$bp-medium})";
+$mq-large: "(max-width: #{$bp-large})";
+$mq-xlarge: "(max-width: #{$bp-xlarge})";
+$mq-xxlarge: "(max-width: #{$bp-xxlarge})";
+$mq-retina: "(-webkit-max-device-pixel-ratio: 2), (max-resolution: 192dpi)";
+
+
+  @media #{$mq-large}  {
+    
+    #Calendar-body{
+    }
+    .rendez-vous-box{
+        transform: scale(0.7);
+        margin-left: 5px;
+        margin-top: -13px;
+    }
+    .SmallCalendar-box{
+        transform: scale(0.7);
+        margin-top: -40px;
+        margin-left: 0px;
+    }
+    .Folders-box{
+        transform: scale(0.7);
+        margin-top: -80px;
+        margin-left: 5px;
+        width:350px;
+        height: 300px;
+    }
+    .FullCalendar-box{
+        transform: scale(1);
+        width: fit-content;
+        margin-left: -55px;
+        margin-top: 0px;
+    }
+
+    .type-box{
+        transform: scale(0.7);
+        margin-left: -44px;
+        margin-top: -56px;
+        margin-bottom: 30px;
+    }
+
+  }
+ 
+  @media (max-width: 880px) {
+    .calendar-box{
+        display: block;
+    }
+      .Sidebar-box{
+          height: 350px;
+    }
+    .type-box{
+        position: absolute;
+        width: 350px;
+        left: 55%;
+        top: 26.5%;
+    }
+    .Folders-box{
+        position: absolute;
+        left: 49%;
+        top: 7.5%;
+    }
+    .FullCalendar-box{
+        position: relative;
+        left: 8%;
+    }
+  }
+

@@ -1,0 +1,23 @@
+$bp-small: 48em;
+$bp-medium: 64em;
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+// Media Queries
+$mq-small: "(max-width: #{$bp-small})";
+$mq-medium: "(max-width: #{$bp-medium})";
+$mq-large: "(max-width: #{$bp-large})";
+$mq-xlarge: "(max-width: #{$bp-xlarge})";
+$mq-xxlarge: "(max-width: #{$bp-xxlarge})";
+$mq-retina: "(-webkit-max-device-pixel-ratio: 2), (max-resolution: 192dpi)";
+
+
+  @media #{$mq-large}  {
+    #formInput{
+        transform: scale(0.7);
+        top:-13%;
+        left: 26%;
+        margin-right: -50%;
+    }
+  }

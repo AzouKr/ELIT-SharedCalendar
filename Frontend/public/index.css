@@ -1,0 +1,214 @@
+.credit {
+    font-size: 16px;
+    color: rgba(191, 191, 191, 0.36);
+    font-family: Arial Narrow, sans-serif;
+    position: fixed;
+    right: 2%;
+    top: 17%;
+    text-align: center;
+    display: none;
+}
+.credit a{text-decoration: none;display: block;    color: rgba(191, 191, 191, 0.36);-webkit-transition:.3s ease;-o-transition:.3s ease;transition:.3s ease}
+.credit a:hover{color:#283e4a}
+header {
+     background: #283e4a;
+     padding: 10px ;
+     position: relative;
+     height: 40px;
+     -webkit-box-shadow: 0px 4px 13px 1px rgba(167, 167, 167, 0.80);
+             box-shadow: 0px 4px 13px 1px rgba(167, 167, 167, 0.80);
+ }
+header:before {
+content: '';
+position: absolute;
+left: 15%;
+top: 13.2px;
+background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png);
+width: 34px;
+height: 34.6px;
+background-color: #0274b3;
+background-size: contain;
+cursor: pointer;
+-webkit-box-shadow: 0px -1.8px 0px 14px white;
+        box-shadow: 0px -1.8px 0px 14px white;
+}
+ header:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 17px 17px 17px 17px;
+    border-color: rgba(255, 255, 255, 0.33) transparent transparent rgba(255, 255, 255, 0.33);
+    left: 15%;
+    top: 13px; 
+}
+ body {
+     margin: 0;
+ }
+ .container {
+     margin: auto;
+     position: relative;
+ }
+ .face{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+ text-align: center;
+ }
+ .loading {
+     width: 130px;
+     display: block;
+     height: 2px;
+     margin: 28px auto; 
+     border-radius: 2px;
+     background-color: #f2f6ff;
+     position: relative;
+     overflow: hidden;
+     z-index: 1;
+ }
+  .loading:before {
+     content:'';
+     height: 3px;
+     width: 68px;
+     position: absolute;
+     -webkit-transform: translate(-34px, 0);
+     -ms-transform: translate(-34px, 0);
+     transform: translate(-34px, 0);
+     background-color: #0073b1;
+     border-radius: 2px;
+     -webkit-animation: initial-loading 1.5s infinite ease;
+     animation: animation 1.4s infinite ease;
+ }
+ @-webkit-keyframes animation {
+     0% {
+         left: 0
+     }
+     50% {
+         left: 100%
+     }
+     100% {
+         left: 0
+     }
+ }
+ @keyframes animation {
+     0% {
+         left: 0
+     }
+     50% {
+         left: 100%
+     }
+     100% {
+         left: 0
+     }
+ }
+.face .container > img {
+ animation: bounce 1.4s ease infinite;
+-webkit-animation: bounce 1.4s ease infinite;
+-moz-animation: bounce 1.4s ease infinite;
+-ms-animation: bounce 1.4s ease infinite;
+-o-animation: bounce 1.4s ease infinite;
+ }
+@-webkit-keyframes bounce {
+    
+    0% {
+        -webkit-transform: scale(1) ;
+                transform: scale(1) ;
+    -webkit-filter: blur(0);
+            filter: blur(0);    
+    }
+    50% {
+        -webkit-transform: scale(.9) ;
+                transform: scale(.9) ;
+    -webkit-filter: blur(1.4);
+            filter: blur(1.4);
+    }
+     100% {
+        -webkit-transform: scale(1) ;
+                transform: scale(1) ;
+         
+    }
+}
+@keyframes bounce {
+    
+    0% {
+        -webkit-transform: scale(1) ;
+                transform: scale(1) ;
+    -webkit-filter: blur(0);
+            filter: blur(0);    
+    }
+    50% {
+        -webkit-transform: scale(.9) ;
+                transform: scale(.9) ;
+    -webkit-filter: blur(1.4);
+            filter: blur(1.4);
+    }
+     100% {
+        -webkit-transform: scale(1) ;
+                transform: scale(1) ;
+         
+    }
+}
+.caption {
+margin-top: 80px;
+text-align: center;
+}
+.caption h2{
+font-family: Trebuchet MS;
+color: #cfcfcf;
+margin: 0 0 8px;
+font-weight: normal;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+.caption ul {
+margin: 0;
+padding: 0;
+}
+
+.caption li {
+list-style: none;
+display: inline-block;
+letter-spacing: 3px;
+font-size: 18px;
+color:#f3f3f3;
+margin-right: 5px;
+font-family: Arial Narrow, sans-serif;
+animation: on-run 2.6s ease infinite;
+-webkit-animation: on-run 2.6s ease infinite;
+-moz-animation: on-run 2.6s ease infinite;
+-ms-animation: on-run 2.6s ease infinite;  
+-o-animation: on-run 2.6s ease infinite;
+}
+.caption li:nth-child(1){-webkit-animation-delay:.2s;animation-delay:.2s}
+.caption li:nth-child(2){-webkit-animation-delay:.4s;animation-delay:.4s;
+    margin-right: 10px;
+}
+.caption li:nth-child(3){-webkit-animation-delay:.6s;animation-delay:.6s}
+.caption li:nth-child(4){-webkit-animation-delay:.8s;animation-delay:.8s}
+.caption li:nth-child(5){-webkit-animation-delay:1s;animation-delay:1s;
+    margin-right: 10px;
+}
+.caption li:nth-child(6){-webkit-animation-delay:1.2s;animation-delay:1.2s}
+.caption li:nth-child(7){-webkit-animation-delay:1.4s;animation-delay:1.4s}
+.caption li:nth-child(8){-webkit-animation-delay:1.6s;animation-delay:1.6s}
+@-webkit-keyframes on-run {
+
+0% {color:#f3f3f3;}
+25% {color: #0073b1;}
+50% {color:#0073b1;}
+75% {color:#f3f3f3;}
+100% {color:#f3f3f3;}
+}
+@keyframes on-run {
+
+0% {color:#f3f3f3;}
+25% {color: #0073b1;}
+50% {color:#0073b1;}
+75% {color:#f3f3f3;}
+100% {color:#f3f3f3;}
+}
+.caption li:last-child{
+margin-right:0
+}

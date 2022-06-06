@@ -1,0 +1,32 @@
+$bp-small: 48em;
+$bp-medium: 64em;
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+// Media Queries
+$mq-small: "(max-width: #{$bp-small})";
+$mq-medium: "(max-width: #{$bp-medium})";
+$mq-large: "(max-width: #{$bp-large})";
+$mq-xlarge: "(max-width: #{$bp-xlarge})";
+$mq-xxlarge: "(max-width: #{$bp-xxlarge})";
+$mq-retina: "(-webkit-max-device-pixel-ratio: 2), (max-resolution: 192dpi)";
+
+
+  @media #{$mq-large}  {
+    #toggle{
+        transform: scale(0.7);
+    }
+    .login-logo{
+        transform: scale(0.7);
+        margin-top: 8.5%;
+    }
+    .login-box{
+        transform: scale(0.7);
+        margin-top: -5.5%;
+    }
+    .password-forg{
+      transform: scale(0.7);
+      margin-top: 2%;
+    }
+  }

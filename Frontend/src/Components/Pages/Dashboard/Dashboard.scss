@@ -1,0 +1,89 @@
+$bp-small: 48em;
+$bp-medium: 64em;
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+// Media Queries
+$mq-small: "(max-width: #{$bp-small})";
+$mq-medium: "(max-width: #{$bp-medium})";
+$mq-large: "(max-width: #{$bp-large})";
+$mq-xlarge: "(max-width: #{$bp-xlarge})";
+$mq-xxlarge: "(max-width: #{$bp-xxlarge})";
+$mq-retina: "(-webkit-max-device-pixel-ratio: 2), (max-resolution: 192dpi)";
+
+
+// @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+// @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+// @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+// @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+// @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+// @media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+
+  @media #{$mq-large}  {
+    .mini-calendar-dash{
+        transform: scale(0.7);
+        margin-left: -55%;
+        margin-top: -35%;
+    }
+    .today-meeting{
+        transform: scale(0.65);
+        margin-left: -55%;
+        margin-top: -48%;
+    }
+
+    .welcome-container{
+      transform: scale(0.65);
+      margin-left: -8%;
+      margin-top: -3%;
+    }
+    .Dashboard-left-container-bottom{
+      transform: scale(0.65);
+      margin-left: -8%;
+      margin-top: -10.5%;
+    }
+  }
+
+  @media (max-width: 880px) {
+
+    .Dashboard-left-container{
+
+    }
+
+    #Dashboard-body{
+      height: 110vh;
+    }
+
+    .welcome-container{
+      position: relative;
+      margin-left: -140px;
+    }
+    .Dashboard-left-container-bottom{
+      position: relative;
+      margin-left: -18px;
+      margin-top: -100px;
+      display: block;
+      width: 400px;
+    }
+    .dashboard-bottom-side{
+      display: block;
+    }
+    .profile-box{
+      margin-bottom: 20px;
+
+    }
+
+    .Dashboard-sidebar{
+      position: relative;
+      margin-left: -25%;
+      margin-top: 32%;
+      width: 400px;
+      height: 60vh;
+
+    }
+  }
+
+  
+
+

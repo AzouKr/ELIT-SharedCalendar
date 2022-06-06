@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+.notif_drop{
+    position: absolute;
+    z-index: 9999;
+}
+
+
+.fa-bell[data-theme='dark']{
+  color: white;
+}
+
+li {
+    display: block;
+    transition-duration: 0.5s;
+   }
+   
+   li:hover {
+     cursor: pointer;
+   }
+   
+   
+   .li-notif{
+       position: relative;
+       right: 10px;
+       border-bottom: 1px solid gainsboro;
+       height: 60px;
+   }
+
+   
+   ul li ul li {
+     clear: both;
+     width: 100%;
+   }
+
+   .notif-box{
+     display: flex;
+   }
+
+   .notif-box-title{
+     margin-left: 10px;
+     margin-top: 5px;
+     text-align: left;
+   }
+
+
+   .notif-nbr-show{
+     position: absolute;
+     top: 2%;
+     right: 1%;
+     background-color: red;
+     color: white;
+     height: 15px;
+     width: 15px;
+     font-size: 12px;
+     font-weight: bold;
+     text-align: center;
+     border-radius: 50%;
+   }
+
+   .all-cont-hide{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    visibility: hidden;
+    right: -85%;
+    top: 80%;
+   }
+   .all-cont{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    right: -85%;
+    top: 80%;
+  }
+
+  
+  .Notif-container{
+    height: 300px;
+    width: 350px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    background-color: white;
+    overflow-y:auto;
+    margin-top: 10px;
+  }
+  .Notif-container[data-theme='dark']{
+    background-color: #2b2f33;
+    color: white;
+  }
+  .arrow-up {
+    position: relative;
+    width: 0; 
+    height: 0; 
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid white;
+    bottom: -15px;
+    left: 80%;
+    }
+    .arrow-up[data-theme='dark']{
+    position: relative;
+    width: 0; 
+    height: 0; 
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 20px solid #2b2f33;
+    bottom: -15px;
+    left: 80%;
+    }
+  
+  .Notif-header{
+    width: 100%;
+    height: 50px;
+  }
+  
+  .Notif-header-title{
+    position: relative;
+    font-size: 25px;
+    text-align: center;
+    top: 10px;
+  
+  }
+  
+  .list-notif{
+    width: 100%;
+    height: 75%;
+  }
+  
+  .notif-one{
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .fa-inbox{
+    position: relative;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+  .notif-one-info{
+    height: 100%;
+    width: 100%;
+    margin-left: 5%;
+  }
+  .notif-one-info-type{
+    font-size: 16px;
+    margin-left: 2%;
+  }
+  .notif-one-info-title{
+    font-size: 16px;
+    margin-left: 2%;
+    color: gray;
+  }
+  

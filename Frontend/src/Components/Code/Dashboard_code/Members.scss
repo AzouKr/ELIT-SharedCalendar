@@ -1,0 +1,22 @@
+  @media (max-width: 880px) {
+    #dashboard-members-body{
+      position: relative;
+      width: 400px;
+      margin-top: 3%;
+      left: -8%;
+    }
+
+    .team-sec-title{
+      text-align: center;
+      left: 0%;
+    }
+
+    .members-profile-images{
+      width: fit-content;
+      left: 28%;
+    }
+
+    .members-profile-info{
+      left: 13%;
+    }
+  }
