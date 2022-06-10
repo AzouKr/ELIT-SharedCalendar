@@ -17,9 +17,9 @@ public class TwilioSmsSender implements SmsSender {
     @Override
     public void sendSms(String phoneNumber, String message) {
         if (isPhoneNumberValid(phoneNumber)) {
-        	Twilio.init("ACe20dc8638a323e7b03ad3788619e40a2","06d05c3817fc035f502791ca4ca687ad");
+        	Twilio.init("Account_sid","Auth_Key");
             PhoneNumber to = new PhoneNumber(phoneNumber);
-            PhoneNumber from = new PhoneNumber("+19107271160");
+            PhoneNumber from = new PhoneNumber("Trial Number");
             MessageCreator creator = Message.creator(to, from, message);
             creator.create();
             LOGGER.info("Send sms {}", phoneNumber,message);
