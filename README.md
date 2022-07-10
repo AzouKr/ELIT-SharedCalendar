@@ -41,6 +41,8 @@ A well-formed JWT consists of three concatenated Base64url encoded strings, sepa
 • JWS payload: Contains verifiable security claims, such as user identity and granted permissions.<br>
 • JWS signature: Used to validate that the token is trustworthy and has not been tampered with. JWTs must be checked before using them
 
+![JWT FLOW DIAGRAM](Frontend/src/img/JWT-FLOW.JPG)
+
 # Some Images
 
 
