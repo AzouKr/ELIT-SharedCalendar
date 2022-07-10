@@ -44,7 +44,7 @@ A well-formed JWT consists of three concatenated Base64url encoded strings, sepa
 
 # Notification systems
 
-When the user creates/modifies an appointment, the system sends an email to the user which contains the description of the appointment thanks to the "JavaMailSender" function.
+When the user creates/modifies an appointment, the system sends an email to the user which contains the description of the appointment thanks to the "JavaMailSender" function.<br>
 The system notifies the user of his appointment for the day one hour before thanks to the "twilio" service.
 
 ![Notification systems](Frontend/src/img/Notification.png)
