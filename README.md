@@ -41,16 +41,27 @@ A well-formed JWT consists of three concatenated Base64url encoded strings, sepa
 • JWS payload: Contains verifiable security claims, such as user identity and granted permissions.<br>
 • JWS signature: Used to validate that the token is trustworthy and has not been tampered with. JWTs must be checked before using them
 
-![JWT FLOW DIAGRAM](Frontend/src/img/JWT-FLOW.JPG)
 
-# Some Images
+# Notification systems
+
+When the user creates/modifies an appointment, the system sends an email to the user which contains the description of the appointment thanks to the "JavaMailSender" function.
+The system notifies the user of his appointment for the day one hour before thanks to the "twilio" service.
+
+![Notification systems](Frontend/src/img/Notification.png)
 
 
-![Landing Page](frontend/src/img/back-2.jpg)
+# Some App Images
+
+
+![Login Page](Frontend/src/img/Login.jpg)
 <br><br>
-![Landing Page](frontend/src/img/3.JPG)
+![Dashboard Page](Frontend/src/img/dashboard.png)
 <br><br>
-![Landing Page](frontend/src/img/2.JPG)
+![Calendar Page](Frontend/src/img/Calendar.png)
 <br><br>
-![Landing Page](frontend/src/img/4.JPG)
+![Create Page](Frontend/src/img/Create.jpg)
+<br><br>
+![Display Page](Frontend/src/img/Display.jpg)
+<br><br>
+![Password Page](Frontend/src/img/MDP.jpg)
 <br>
