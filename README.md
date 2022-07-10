@@ -28,7 +28,7 @@ ELIT Shared Calendar uses [Spring Boot](https://spring.io/projects/spring-boot) 
 
 # Application Security
 
-## •	Cryptage des mots de passes 
+## •	Password encryption
 Passwords are encrypted in the database using the “BCrypt” function of the “BCryptPasswordEncoder” class, a class predefined in SpringBoot.
 The encryption of passwords is necessary for the security of the data of the users of our application in the event that the application is hacked, the hacker will not be able to access their profile and steal their personal information.
 
