@@ -18,7 +18,7 @@ can also get an overview of their colleagues' calendars.
 <br>
 
 
-![Landing Page](frontend/src/img/Back.jpg)
+![Landing Page](Frontend/src/img/dashboard.png)
 <br>
 
 # Technical Details
