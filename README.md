@@ -4,7 +4,7 @@
 </h1>
 
 <h3 align="center">
-ELIT Shared Calendar allows teleworkers and employees of ELIT frequently in
+ELIT Shared Calendar allows employees of ELIT frequently in
 moving to stay connected to your business. It provides a centralized means of
 set up meetings and projects. A group calendar can be
 accessed 24/7 from any internet-connected device. The Chiefs
