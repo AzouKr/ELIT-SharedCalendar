@@ -5,7 +5,7 @@
 
 <h3 align="center">
 ELIT Shared Calendar allows employees of ELIT frequently in
-moving to stay connected to your business. It provides a centralized means of
+moving to stay connected to their business. It provides a centralized means of
 set up meetings and projects. A group calendar can be
 accessed 24/7 from any internet-connected device. The Chiefs
 projects, consultants, vendors and other employees can access the
